@@ -1,0 +1,91 @@
+/* HR Intelligence Portal - Premium Dark Theme */
+
+.stApp {
+    background: #0e1117;
+    color: white;
+}
+
+
+/* Main Titles */
+
+h1 {
+    color: #4da6ff;
+    font-weight: 800;
+}
+
+h2, h3 {
+    color: #7dd3fc;
+}
+
+
+/* Cards */
+
+div[data-testid="stMetric"] {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.15);
+    transition: 0.3s;
+}
+
+
+div[data-testid="stMetric"]:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Info Boxes */
+
+div[data-testid="stAlert"] {
+    border-radius: 15px;
+}
+
+
+/* Buttons */
+
+.stButton button {
+
+    background: #2563eb;
+    color: white;
+
+    border-radius: 12px;
+    padding: 10px 25px;
+
+    font-weight: bold;
+
+}
+
+
+.stButton button:hover {
+
+    background: #1d4ed8;
+    transform: scale(1.05);
+
+}
+
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+
+    background: #111827;
+
+}
+
+
+/* Data Tables */
+
+div[data-testid="stDataFrame"] {
+
+    border-radius: 12px;
+
+}
+
+
+/* Divider */
+
+hr {
+
+    border-color: #374151;
+
+}
